@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS api_crud;
+USE api_crud;
+
+CREATE TABLE IF NOT EXISTS songs (
+  id INT(11) AUTO_INCREMENT,
+  name VARCHAR(255),
+  PRIMARY KEY (id)
+);
